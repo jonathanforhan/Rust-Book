@@ -1,0 +1,11 @@
+# ignore all the cargo bloat
+
+# debug folders
+*/debug/
+*/target/
+
+# ignore lock because these are executables
+*/Cargo.lock
+
+# ignore backups
+*/**/*.rs.bk
